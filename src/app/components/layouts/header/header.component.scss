@@ -1,0 +1,44 @@
+.header {
+  padding: 1.75rem 1.5rem;
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.125rem;
+      font-size: 1.125rem;
+      font-weight: 600;
+      letter-spacing: 0.0625rem;
+
+      .logo-img {
+        width: 1.625rem;
+        height: 1.5625rem;
+      }
+    }
+
+    .menu-icon {
+      width: 1.75rem;
+      height: 1.75rem;
+      font-size: 1.75rem;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    position: relative;
+
+    .header-content {
+      height: 1.75rem;
+
+      .menu-icon {
+        display: none;
+      }
+    }
+  }
+}

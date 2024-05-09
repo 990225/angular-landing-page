@@ -1,0 +1,30 @@
+.nav {
+  text-align: center;
+
+  .nav-item {
+    margin-top: 2.5rem;
+
+    &:first-child {
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .nav-list {
+      display: flex;
+      justify-content: center;
+      gap: 2.75rem;
+
+      .nav-item {
+        margin: 0;
+      }
+    }
+  }
+}
