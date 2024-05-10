@@ -1,5 +1,5 @@
 .header {
-  padding: 1.75rem 1.5rem;
+  padding: 28px 24px;
 
   .header-content {
     display: flex;
@@ -9,21 +9,21 @@
     .logo {
       display: flex;
       align-items: center;
-      gap: 0.125rem;
-      font-size: 1.125rem;
+      gap: 2px;
+      font-size: 18px;
       font-weight: 600;
-      letter-spacing: 0.0625rem;
+      letter-spacing: 1px;
 
       .logo-img {
-        width: 1.625rem;
-        height: 1.5625rem;
+        width: 26px;
+        height: 25px;
       }
     }
 
     .menu-icon {
-      width: 1.75rem;
-      height: 1.75rem;
-      font-size: 1.75rem;
+      width: 28px;
+      height: 28px;
+      font-size: 28px;
       cursor: pointer;
     }
   }
@@ -34,7 +34,7 @@
     position: relative;
 
     .header-content {
-      height: 1.75rem;
+      height: 28px;
 
       .menu-icon {
         display: none;
