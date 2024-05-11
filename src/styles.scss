@@ -28,8 +28,18 @@ html {
       outline: none;
     }
 
+    input {
+      padding: 0 18px;
+      height: 36px;
+      color: #ffffff;
+      border: none;
+      border-radius: 12px;
+      outline: none;
+    }
+
     .mat-lime-green {
-      padding: 12px 18px 12px 18px;
+      padding: 0 18px;
+      height: 36px;
       letter-spacing: 0;
       background: linear-gradient(134deg, #ceef4c, #e7ff8f);
       border-radius: 12px;
